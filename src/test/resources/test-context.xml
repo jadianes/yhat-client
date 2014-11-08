@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="yhatConfig" class="me.jadianes.yhat.config.YhatConfig">
+        <property name="apiKey" value="${yhat.api.key}"/>
+        <property name="protocol" value="${yhat.protocol}"/>
+        <property name="hostName" value="${yhat.host.name}"/>
+        <property name="userName" value="${yhat.user.name}"/>
+    </bean>
+
+    <!--load property files-->
+    <context:property-placeholder location="classpath:prop/yhat-config.properties" ignore-unresolvable="true" order="1"/>
+
+</beans>
