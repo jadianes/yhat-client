@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>uk.ac.ebi.pride.cluster</groupId>
-  <artifactId>cluster-ws-client</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <groupId>me.jadianes.yhat</groupId>
+  <artifactId>yhat-client</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20141203.204337</timestamp>
+      <timestamp>20141203.204518</timestamp>
       <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20141203204337</lastUpdated>
+    <lastUpdated>20141203204518</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1.0-20141203.204337-3</value>
-        <updated>20141203204337</updated>
+        <value>1.0-20141203.204518-3</value>
+        <updated>20141203204518</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-20141203.204337-3</value>
-        <updated>20141203204337</updated>
+        <value>1.0-20141203.204518-3</value>
+        <updated>20141203204518</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
